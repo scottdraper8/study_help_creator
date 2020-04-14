@@ -1,0 +1,57 @@
+.control-panel button, .addNewP {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.control-panel button a, .addNewP a {
+  position: relative;
+  transition: all .3s ease-Out;
+  color: inherit;
+  text-decoration: none;
+}
+
+.control-panel button div {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 45px;
+  top: 50px;
+  transform: rotate(0deg);
+  background: red;
+  position: absolute;
+  transition: all .75s ease-Out;
+}
+
+.control-panel button:hover div {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  left: -40px;
+  top: -40px;
+  background: #BFC0C0;
+  transform: rotate(80deg);
+}
+
+
+.addNewP div {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 90px;
+  top: 100px;
+  transform: rotate(0deg);
+  background: red;
+  position: absolute;
+  transition: all 1s ease-Out;
+}
+
+.addNewP:hover div {
+  width: 200%;
+  height: 1500%;
+  opacity: 1;
+  left: -90px;
+  top: -90px;
+  background: #BFC0C0;
+  transform: rotate(80deg);
+}

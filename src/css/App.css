@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+html {
+  background-color: #a9c6cf; }
+
+* {
+  font-family: 'Sen', sans-serif;
+  text-align: center; }
+  * .body {
+    background-color: silver; }
+    * .body button {
+      background: none;
+      outline: none; }
+    * .body button:hover {
+      cursor: pointer;
+      color: orange; }
+    * .body header {
+      border-bottom: 2px solid black;
+      margin-bottom: 5vw;
+      background-color: #a9c6cf; }
+      * .body header h1 {
+        margin: 2vh 0; }
+      * .body header nav {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 -1px 0 #000; }
+        * .body header nav button {
+          margin: 0 1vw;
+          padding: 1vh 0 0.25vh 0;
+          border: 1px solid #a9c6cf; }
+        * .body header nav button:hover {
+          border-right: 1px solid orange;
+          border-left: 1px solid orange; }
+        * .body header nav #btn-left {
+          margin-left: 5vw; }
+        * .body header nav #btn-right {
+          margin-right: 5vw; }
+    * .body .container {
+      display: flex;
+      justify-content: left;
+      align-items: flex-start; }
+      * .body .container aside {
+        position: sticky;
+        top: 0; }
+      * .body .container .letter {
+        margin-left: 0; }
+      * .body .container .select-letter {
+        font-size: 14px;
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin: 0 0 .5vw 8px;
+        border: none;
+        width: 30px; }
+
+/*# sourceMappingURL=App.css.map */
